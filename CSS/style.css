@@ -698,7 +698,7 @@ body {
   border-bottom: 1px solid #e9e9e9;
   overflow: hidden;
   position: relative;
-  padding:0 10px;
+  padding: 0 10px;
 }
 
 .stories .scroll-stories {
@@ -711,8 +711,8 @@ body {
   overflow-x: scroll;
   padding: 0.3em 0;
   overflow: -moz-scrollbars-none;
-  -ms-overflow-style: none;  
-  scrollbar-width: none;  
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 .stories .scroll-stories::-webkit-scrollbar {
   width: 0 !important;
@@ -741,9 +741,8 @@ body {
 }
 
 .stories .scroll-stories .storie .photo.user {
-    background: #fff;
-  
-  }
+  background: #fff;
+}
 
 .stories .scroll-stories .storie .photo img {
   width: calc(66px - 6px);
@@ -812,10 +811,9 @@ body {
   left: 0;
 }
 
-
 /*SUGGESTION */
 
-.suggestion-box{
+.suggestion-box {
   width: 100%;
   position: relative;
   padding: 0.5em;
@@ -839,17 +837,17 @@ body {
   display: flex;
   width: 100%;
   padding-bottom: 0.75em;
-  margin:0 0.2em;
+  margin: 0 0.2em;
   overflow: hidden;
   overflow-x: scroll;
-  -ms-overflow-style: none; 
+  -ms-overflow-style: none;
   overflow: -moz-scrollbars-none;
-  scrollbar-width: none;  
+  scrollbar-width: none;
 }
 
 .suggestions-list::-webkit-scrollbar {
   width: 0 !important;
-  background: transparent; 
+  background: transparent;
 }
 
 .suggestion {
@@ -941,8 +939,6 @@ body {
   left: 0;
 }
 
-
-
 @media only screen and (max-width: 1300px) {
   .main-navbar {
     width: 85%;
@@ -988,21 +984,21 @@ body {
   .main-content {
     width: 75%;
   }
-  .suggest-close{
+  .suggest-close {
     font-size: 1em;
-}
-.arrow{
-  display: none;
-}
-.arr{
-  display: none;
-}
-.stories{
-padding: 0;
-}
-.suggestion-box{
-  padding: 0;
-}
+  }
+  .arrow {
+    display: none;
+  }
+  .arr {
+    display: none;
+  }
+  .stories {
+    padding: 0;
+  }
+  .suggestion-box {
+    padding: 0;
+  }
 }
 @media only screen and (max-width: 750px) {
   .main-content {
@@ -1069,7 +1065,6 @@ padding: 0;
   .sidebar {
     display: block;
   }
-
 }
 
 @media only screen and (max-width: 500px) {
